@@ -1,3 +1,20 @@
+@font-face {
+    font-family: MontserratBold;
+    src: url(fonts/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: MontserratMedium;
+    src: url(fonts/Montserrat-Medium.otf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: Signerica;
+    src: url(fonts/Signerica_Thin.ttf);
+}
+
 .navbar-nav {
 	width: 100%;
 	text-align: center;
@@ -6,8 +23,46 @@
 li {
 	float: none;
 	display: inline-block;
+	font-family: Quicksand;
+}
+
+.navigering {
+	color: #656464;
 }
 
 .background {
 	width: 100%;
+}
+
+#starttext {
+	color: #6cbdba;
+	font-family: MontserratMedium;
+}
+
+.heading2 {
+	color: #656464;
+	font-family: Futura;
+}
+
+.heading3 {
+	color: #656464;
+	font-family: MontserratBold;
+}
+
+.blue {
+	color: #6cbdba;
+	font-family: Quicksand;
+}
+
+.grey {
+	color: #656464;
+	font-family: Quicksand;
+}
+
+.icon {
+	width: 100px;
+}
+
+.greydiv {
+	background-color: rgb(240, 240, 240);
 }
